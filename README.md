@@ -1,9 +1,12 @@
-# Sjml Sjml
+# Shane's Personal Homebrew Tap
 
-## How do I install these formulae?
-`brew install sjml/sjml/<formula>`
+Just some casks for apps that I made and want to easily install on new computers. 
 
-Or `brew tap sjml/sjml` and then `brew install <formula>`.
+## Available Apps
+* dotfile-watcher: A program that watches a given directory and pops a menu notifier if there's uncommited changes in it. Useful if you keep your dotfiles in Git and want to know if anything gets changed behind your back. ([repo](https://github.com/sjml/DotfileWatcher))
+* dualcam: The simplest way to look at two USB cameras at once. ([repo](https://github.com/sjml/DualCam))
 
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## To install
+`brew install --cask sjml/sjml/<cask>`
+
+Or `brew tap sjml/sjml` and then `brew install --cask <cask>`.
