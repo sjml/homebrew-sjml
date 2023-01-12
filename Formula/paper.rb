@@ -5,6 +5,13 @@ class Paper < Formula
   sha256 "12975ee826f13054f458c7146c9facc272ed14cea8506a87cc6bb83009951c79"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/sjml/homebrew-sjml/releases/download/paper-0.5.0"
+    rebuild 1
+    sha256                               monterey:     "c5d1738902810b5fb56f6ebb12587c8a6e38dddc7c7a39f617fd91769bc2048d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "492e57712f4fe0548d2f1dfb7dfe534ecf41188856e86dade1697c18b9f575fc"
+  end
+
   depends_on "rust" => :build
   depends_on "pandoc"
   depends_on "tectonic"
