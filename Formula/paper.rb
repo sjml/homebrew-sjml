@@ -11,7 +11,7 @@ class Paper < Formula
   depends_on "gh" => :recommended
 
   def install
-    ENV["PAPER_RESOURCES_DIR"] = "#{prefix}/share"
+    ENV["PAPER_RESOURCES_DIR"] = "#{share}"
     system "cargo", "install", *std_cargo_args
 
     share.install "resources/project_template"
