@@ -26,7 +26,7 @@ class Paper < Formula
     system "#{bin}/paper", "new", "PaperTest"
     cd testpath/"PaperTest" do
       system "#{bin}/paper", "build"
-      assert_predicate testpath/"output"/"[AUTHOR]_[MNEMONIC]_PaperTest.docx", :exist?
+      assert_predicate testpath/"PaperTest"/"output"/"[AUTHOR]_[MNEMONIC]_PaperTest.docx", :exist?
     end
   end
 end
