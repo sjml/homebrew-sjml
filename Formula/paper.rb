@@ -23,6 +23,10 @@ class Paper < Formula
   end
 
   test do
-    # TODO
+    system "#{bin}/paper new PaperTest"
+    cd testpath/"PaperTest" do
+      system "#{bin}/paper build"
+      assert_predicate testpath/"output"/"[AUTHOR]_[MNEMONIC]_PaperTest.docx", :exist?
+    end
   end
 end
