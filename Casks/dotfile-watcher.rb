@@ -4,7 +4,7 @@ cask "dotfile-watcher" do
 
   url "https://github.com/sjml/DotfileWatcher/releases/download/v#{version}/DotfileWatcher.zip"
   name "DotfileWatcher"
-  desc "notify if anything's changed in a git-synced dotfile directory"
+  desc "Notify if anything's changed in a git-synced dotfile directory"
   homepage "https://github.com/sjml/DotfileWatcher"
 
   app "DotfileWatcher.app"

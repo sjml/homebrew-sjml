@@ -4,7 +4,7 @@ cask "dualcam" do
 
   url "https://github.com/sjml/DualCam/releases/download/v#{version}/DualCam.zip"
   name "DualCam"
-  desc "the most basic look-at-two-webcams-at-once implementation you could possibly imagine"
+  desc "Most basic look-at-two-webcams-at-once implementation you could possibly imagine"
   homepage "https://github.com/sjml/DualCam"
 
   app "DualCam.app"
