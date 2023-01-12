@@ -11,7 +11,7 @@ class Paper < Formula
   depends_on "gh" => :recommended
 
   def install
-    ENV["PAPER_RESOURCES_DIR"] = "#{share}"
+    ENV["PAPER_RESOURCES_DIR"] = share
     system "cargo", "install", *std_cargo_args
 
     share.install "resources/project_template"
@@ -23,9 +23,9 @@ class Paper < Formula
   end
 
   test do
-    system "#{bin}/paper new PaperTest"
+    system "#{bin}/paper", "new", "PaperTest"
     cd testpath/"PaperTest" do
-      system "#{bin}/paper build"
+      system "#{bin}/paper", "build"
       assert_predicate testpath/"output"/"[AUTHOR]_[MNEMONIC]_PaperTest.docx", :exist?
     end
   end
