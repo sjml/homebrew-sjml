@@ -10,6 +10,18 @@ Just some formulae and casks to make tools I made easily installable.
 * `dualcam`: The simplest way to look at two USB cameras at once. ([repo](https://github.com/sjml/DualCam))
 
 ## To install
+If you don't already have Homebrew installed, run this:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Then...
+
+### Formula
+`brew install sjml/sjml/<formula>`
+
+### Casks
 `brew install --cask sjml/sjml/<cask>`
 
 Or `brew tap sjml/sjml` and then `brew install --cask <cask>`.
