@@ -1,8 +1,8 @@
 class Paper < Formula
   desc "Shane's little paper-{writing|managing|building} utility"
   homepage "https://github.com/sjml/paper"
-  url "https://github.com/sjml/paper/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "12975ee826f13054f458c7146c9facc272ed14cea8506a87cc6bb83009951c79"
+  url "https://github.com/sjml/paper/archive/refs/tags/v0.5.1a.tar.gz"
+  sha256 "9e0b486d50d4cb133273ff92f0fcfedbcd04dc21cfe1b676f70e480dbc572374"
   license "MIT"
 
   bottle do
