@@ -1,8 +1,8 @@
 class Paper < Formula
   desc "Shane's little paper-{writing|managing|building} utility"
   homepage "https://github.com/sjml/paper"
-  url "https://github.com/sjml/paper/archive/refs/tags/v0.5.9.tar.gz"
-  sha256 "2aa25c24348bb626a88088f4efc9e28f0d21309051ca6a3d16b72b26e32d0273"
+  url "https://github.com/sjml/paper/archive/refs/tags/v0.5.10.tar.gz"
+  sha256 "1b8305aab0910395970f3ec821c244bc9e53ffd76ebcd0c237e42c06fd96d9ec"
   license "MIT"
 
   depends_on "rust" => :build
