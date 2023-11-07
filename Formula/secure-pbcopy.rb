@@ -6,7 +6,8 @@ class SecurePbcopy < Formula
   license "CC0-1.0"
 
   def install
-    system "make", "install"
+    system "make"
+    bin.install "secure-pbcopy"
   end
 
   test do
