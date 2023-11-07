@@ -1,4 +1,4 @@
-class SecurePbCopy < Formula
+class SecurePbcopy < Formula
   desc "pbcopy(1) replacement that marks data as confidential"
   homepage "https://github.com/sjml/secure-pbcopy"
   url "https://github.com/sjml/secure-pbcopy/archive/refs/tags/v2019.06.18.tar.gz"
