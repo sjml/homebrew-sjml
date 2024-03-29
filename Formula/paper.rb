@@ -11,11 +11,11 @@ class Paper < Formula
   depends_on "gh" => :recommended
 
   def install
-    ENV["PAPER_RESOURCES_DIR"] = share
+    ENV["PAPER_RESOURCES_DIR"] = pkgshare
     system "cargo", "install", *std_cargo_args
 
-    share.install "resources/project_template"
-    share.install "resources/scripts"
+    pkgshare.install "resources/project_template"
+    pkgshare.install "resources/scripts"
 
     bash_completion.install "resources/completions/paper.bash"
     fish_completion.install "resources/completions/paper.fish"
