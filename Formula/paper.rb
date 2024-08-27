@@ -6,7 +6,6 @@ class Paper < Formula
   license "MIT"
 
   depends_on "rust" => :build
-  depends_on "pandoc"
   depends_on "tectonic"
   depends_on "gh" => :recommended
 
