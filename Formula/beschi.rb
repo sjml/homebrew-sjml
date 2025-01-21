@@ -3,8 +3,8 @@ class Beschi < Formula
 
   desc "Bit-packing and unpacking code generator for multiple target languages"
   homepage "https://github.com/sjml/beschi"
-  url "https://github.com/sjml/beschi/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "eeefaad7491d19680f5f461a3303188d7c1131ce0641b70b7be3180081a4451e"
+  url "https://github.com/sjml/beschi/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "ec7cd16fbbac8a88a375b9b232ae3705730c8b72e8bf06573d1c46cb804d1303"
   license "MIT"
 
   depends_on "python@3.11"
