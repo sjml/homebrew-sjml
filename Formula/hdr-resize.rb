@@ -1,8 +1,8 @@
 class HdrResize < Formula
   desc "Resizes HDR images in JPEG or HEIC format while retaining their dynamic range"
   homepage "https://github.com/sjml/hdr-resize"
-  url "https://github.com/sjml/hdr-resize/archive/refs/tags/0.1.0.tar.gz"
-  sha256 "d9dd2ed24522764bd51719ba2f413256ee692258741018575305fc50e9406f6e"
+  url "https://github.com/sjml/hdr-resize/archive/refs/tags/0.1.1.tar.gz"
+  sha256 "ad0cefb15a125b914b94165537b6c32ed5ff49b0e24a1a29affa0e8c5ad47808"
   license "MIT"
 
   def install
