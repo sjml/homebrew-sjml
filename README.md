@@ -5,6 +5,8 @@ Just some formulae and casks to make tools I made easily installable.
 ## Available Tools
 * `paper`: A command-line tool for tracking references and compiling a finished academic paper from Markdown. ([repo](https://github.com/sjml/paper))
 * `beschi`: A bit-packing code generator for message passing between different languages. Like a less-capable flatbuffers, for simpler client code. ([repo](https://github.com/sjml/beschi))
+* `secure-pbcopy`: Just a pre-built version of [Alyssa Ross's secure-pbcopy](https://github.com/alyssais/secure-pbcopy) with no changes; I didn't want to tie it directly to another repo. 
+* `hdr-resize`: Usually resizing images exported from your iPhone loses the dynamic range, unless you use this tool!  ([repo](https://github.com/sjml/hdr-resize))
 
 ## Available Apps
 * `dotfile-watcher`: A program that watches a given directory and pops a menu notifier if there's uncommited changes in it. Useful if you keep your dotfiles in Git and want to know if anything gets changed behind your back. ([repo](https://github.com/sjml/DotfileWatcher))
